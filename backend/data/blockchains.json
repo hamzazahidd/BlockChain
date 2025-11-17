@@ -1,0 +1,66 @@
+{
+  "1--": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-17T10:00:00Z",
+      "data": {"msg": "Department Genesis Block: School of Computing"},
+      "prevHash": "0",
+      "nonce": 1032,
+      "hash": "0000a1b2c3d4e5f67890123456789abcdef0000112233445566778899aabbccdd"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-17T10:05:00Z",
+      "data": {"msg": "Department info updated"},
+      "prevHash": "0000a1b2c3d4e5f67890123456789abcdef0000112233445566778899aabbccdd",
+      "nonce": 4501,
+      "hash": "0000b1c2d3e4f567890123456789abcdef0000112233445566778899aabbccde"
+    }
+  ],
+  
+  "1-101-1001": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-17T10:10:00Z",
+      "data": {"msg": "Student Genesis Block", "studentId": "1001", "name": "Alice"},
+      "prevHash": "0000b1c2d3e4f567890123456789abcdef0000112233445566778899aabbccde",
+      "nonce": 2048,
+      "hash": "0000c1d2e3f4567890123456789abcdef0000112233445566778899aabbccdf"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-17T11:00:00Z",
+      "data": {"studentId": "1001", "status": "Present", "departmentId": "1", "classId": "101"},
+      "prevHash": "0000c1d2e3f4567890123456789abcdef0000112233445566778899aabbccdf",
+      "nonce": 3120,
+      "hash": "0000d1e2f34567890123456789abcdef0000112233445566778899aabbccdg"
+    },
+    {
+      "index": 2,
+      "timestamp": "2025-11-18T11:00:00Z",
+      "data": {"studentId": "1001", "status": "Absent", "departmentId": "1", "classId": "101"},
+      "prevHash": "0000d1e2f34567890123456789abcdef0000112233445566778899aabbccdg",
+      "nonce": 4120,
+      "hash": "0000e1f234567890123456789abcdef0000112233445566778899aabbccdh"
+    }
+  ],
+
+  "1-101-1002": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-17T10:15:00Z",
+      "data": {"msg": "Student Genesis Block", "studentId": "1002", "name": "Bob"},
+      "prevHash": "0000b1c2d3e4f567890123456789abcdef0000112233445566778899aabbccde",
+      "nonce": 2200,
+      "hash": "0000c2d3e4f567890123456789abcdef0000112233445566778899aabbccdg"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-17T11:05:00Z",
+      "data": {"studentId": "1002", "status": "Leave", "departmentId": "1", "classId": "101"},
+      "prevHash": "0000c2d3e4f567890123456789abcdef0000112233445566778899aabbccdg",
+      "nonce": 3300,
+      "hash": "0000d2e3f4567890123456789abcdef0000112233445566778899aabbcch"
+    }
+  ]
+}

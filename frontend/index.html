@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance Blockchain System</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Blockchain Attendance System</h1>
+
+    <h2>Departments</h2>
+    <input id="deptName" placeholder="Department Name">
+    <button onclick="createDept()">Add Department</button>
+    <div id="deptList"></div>
+
+    <h2>Classes</h2>
+    <input id="className" placeholder="Class Name">
+    <input id="classDeptId" placeholder="Department ID">
+    <button onclick="createClass()">Add Class</button>
+    <div id="classList"></div>
+
+    <h2>Students</h2>
+    <input id="studentName" placeholder="Student Name">
+    <input id="rollNum" placeholder="Roll Number">
+    <input id="studentClassId" placeholder="Class ID">
+    <input id="studentDeptId" placeholder="Department ID">
+    <button onclick="createStudent()">Add Student</button>
+    <div id="studentList"></div>
+
+    <h2>Mark Attendance</h2>
+    <input id="attDept" placeholder="Department ID">
+    <input id="attClass" placeholder="Class ID">
+    <input id="attStudent" placeholder="Student ID">
+    <select id="attStatus">
+        <option value="Present">Present</option>
+        <option value="Absent">Absent</option>
+        <option value="Leave">Leave</option>
+    </select>
+    <button onclick="markAttendance()">Submit Attendance</button>
+
+    <h2>Student Ledger</h2>
+    <input id="ledgerStudent" placeholder="Student ID">
+    <button onclick="getLedger()">View Ledger</button>
+    <pre id="ledgerOutput"></pre>
+
+    <script src="script.js"></script>
+</body>
+</html>

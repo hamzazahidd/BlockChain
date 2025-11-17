@@ -1,0 +1,7 @@
+[
+    {"id": "1001", "name": "Alice", "roll": "C101-001", "classId": "101", "departmentId": "1"},
+    {"id": "1002", "name": "Bob", "roll": "C101-002", "classId": "101", "departmentId": "1"},
+    {"id": "1003", "name": "Charlie", "roll": "C102-001", "classId": "102", "departmentId": "1"},
+    {"id": "2001", "name": "David", "roll": "SE101-001", "classId": "201", "departmentId": "2"},
+    {"id": "2002", "name": "Eva", "roll": "SE101-002", "classId": "201", "departmentId": "2"}
+]

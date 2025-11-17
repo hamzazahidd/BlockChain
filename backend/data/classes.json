@@ -1,0 +1,77 @@
+[
+  {
+    "id": "101",
+    "name": "CS101",
+    "section": "A",
+    "departmentId": "1"
+  },
+  {
+    "id": "102",
+    "name": "CS102",
+    "section": "B",
+    "departmentId": "1"
+  },
+  {
+    "id": "103",
+    "name": "CS103",
+    "section": "C",
+    "departmentId": "1"
+  },
+  {
+    "id": "104",
+    "name": "CS104",
+    "section": "D",
+    "departmentId": "1"
+  },
+  {
+    "id": "105",
+    "name": "CS105",
+    "section": "E",
+    "departmentId": "1"
+  },
+  {
+    "id": "201",
+    "name": "SE101",
+    "section": "A",
+    "departmentId": "2"
+  },
+  {
+    "id": "202",
+    "name": "SE102",
+    "section": "B",
+    "departmentId": "2"
+  },
+  {
+    "id": "203",
+    "name": "SE103",
+    "section": "C",
+    "departmentId": "2"
+  },
+  {
+    "id": "204",
+    "name": "SE104",
+    "section": "D",
+    "departmentId": "2"
+  },
+  {
+    "id": "205",
+    "name": "SE105",
+    "section": "E",
+    "departmentId": "2"
+  },
+  {
+    "id": "1763360778809",
+    "name": "",
+    "departmentId": ""
+  },
+  {
+    "id": "1763360786029",
+    "name": "bhbhb",
+    "departmentId": "1222"
+  },
+  {
+    "id": "1763360787696",
+    "name": "bhbhb",
+    "departmentId": "1222"
+  }
+]
